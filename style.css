@@ -1,0 +1,264 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+}
+
+header{
+    background-color: #395992;
+    height: 85px;
+    border-bottom: 1px solid #133783;
+}
+
+.header-block{
+    width: 992px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.logo{
+    width: 50%;
+    float: left;
+}
+
+.facebook-login{
+    font-family: Helvetica;
+    font-size: 75%;
+    width: 50%;
+    float:left;
+}
+
+.logo img{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.header-block label{
+    color: #fff;
+}
+
+.email{
+    float: left;
+    padding-left: 20px;
+}
+
+.email label{
+    padding-bottom: 10px;
+}
+.email input{
+    height: 20px;
+    width: 150px;
+    border: 1px solid #1d2a5b;
+}
+
+.password{
+    float: left;
+    margin-left: 20px;
+}
+
+.password label{
+    padding-bottom: 10px;
+}
+
+.password input{
+    height: 20px;
+    width: 150px;
+    border: 1px solid #1d2a5b;
+}
+
+.password a{
+    color: #8fb1d8;
+    text-decoration: none;
+}
+
+.login-button{
+    float: left;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.login-button input{
+    background: #4267b2;
+    border: 1px solid #29487d;
+    border-radius: 2px;
+    color: #fff;
+    height: 20px;
+    width: 50px;
+}
+
+.content-block{
+    display:flex;
+    clear: both;
+    width: 992px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.facebook.connect{
+    
+    font-family: Helvetica;
+    width: 585px;
+    margin-top: 50px;
+    float: left;
+}
+
+.facebook-connect p{
+    
+    font-family: Helvetica;
+    width: 585px;
+    color: #0e385f;
+    font-size:25px;
+    font-weight: bold;
+    
+}
+
+.facebook-connect img{
+    width: 485px;
+    margin-top: 10px;
+}
+
+.create-account{
+   font-family: Helvetica;
+    float: left;
+    width: 50%;
+}
+
+.content-container{
+    background: linear-gradient(#fff, #d9ddeb);
+}
+
+.create-account h2{
+    font-size: 40px;
+}
+
+.create-account > p{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.account input{
+    height: 38px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    border: 1px solid #bcd7d8;
+}
+
+.name{
+    width: 194px;
+}
+
+.selectors{
+    padding-bottom:10px;
+}
+.birthday{
+    color: #8e939a;
+    font-weight: bold;
+}
+
+.selectors select{
+    font-size: 13px;
+    height: 30px;
+    padding:5px;
+    background-color: #fff;
+    color: #1c1e21;
+    border: 1px solid #ccd0d5;
+    margin-right:0px;
+    margin-left: 0px;
+}
+
+.gender{
+    margin-top: 10px;
+}
+.gender > label{
+    color: #8e939a;
+    font-weight: bold;
+}
+
+.gender-selectors{
+    font-size: 14px;
+    margin-right: 5px;
+
+}
+
+.gender-selectors label{
+border-radius: 4px;
+    border-width: 1px;
+    display: inline-block;
+}
+
+
+.agreement p{
+    color: #77777a;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+.agreement a{
+    text-decoration: none;
+    color: #385898;
+    cursor: pointer;
+}
+
+.account button{
+    padding: 15px 22px;
+    background: linear-gradient(#95d67c,#65a953);
+    border: 1px solid #3b6a22;
+    border-radius: 5px;
+    font-size:25px;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer{
+    width: 990px;
+    margin: auto;
+    margin-top: 40px;
+    font-family: Helvetica;
+    font-size: 75%;
+}
+
+.linebreak{
+    border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;}
+
+.languages{
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.languages li{
+    padding-right: 10px;
+}
+
+.languages a{
+    text-decoration:none;
+    color: #385898;
+    cursor: pointer;
+}
+
+.options{
+    width: 990px;
+    display: flex;
+    flex-flow: wrap;
+    margin-bottom: 28px;
+    list-style-type: none;
+}
+
+.options li{
+    padding-right: 20px;
+    padding-bottom: 12px;
+}
+
+.options a{
+    text-decoration:none;
+    color: #385898;
+    cursor: pointer;
+}
